@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Playfair+Display:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+.mainHeader {
+  border-bottom: 2px solid #5C1F06;
+}
+.mainHeader .mainHeaderContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 2rem;
+}
+.mainHeader .mainHeaderContent .mainHeaderTitle {
+  font-size: 54px;
+  font-weight: 900;
+  color: #D97852;
+}
+.mainHeader .mainHeaderContent .headerNav ul {
+  display: flex;
+  list-style: none;
+}
+.mainHeader .mainHeaderContent .headerNav ul li {
+  padding: 1rem;
+  display: flex;
+}
+.mainHeader .mainHeaderContent .headerNav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+}
+.mainHeader .mainHeaderContent .headerNav ul li i {
+  font-size: 1.5rem;
+}
+
+.active {
+  color: #D97852 !important;
+}
+
+.pageContainer .homepageImageContainer {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.pageContainer .homepageImageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.homepageTextContainer {
+  margin: 0 10rem;
+}
+.homepageTextContainer h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #D97852;
+  margin: 1rem 0;
+}
+
+.posterContainerHomePage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+.posterContainerHomePage .newsContainer {
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  gap: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.posterContainerHomePage .newsContainer img {
+  width: 100%;
+  height: auto;
+}
+.posterContainerHomePage .buttonContainer {
+  display: flex;
+  gap: 0.2rem;
+}
+.posterContainerHomePage .buttonContainer button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #5C1F06;
+  background-color: #D97852;
+  color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.mainFooter {
+  border-top: 2px solid #5C1F06;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.mainFooter .footerUlContainer {
+  margin: 0 4rem;
+  display: flex;
+  gap: 2rem;
+}
+.mainFooter .footerUlContainer ul li {
+  list-style: none;
+}
+.mainFooter .footerUlContainer ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+}
+.mainFooter .footerUlContainer ul:nth-child(1) li:nth-child(1) a {
+  font-weight: 600;
+  color: #D97852;
+}
+
+.iconContainer {
+  display: flex;
+  gap: 1rem;
+}
+.iconContainer i {
+  margin-top: 0.8rem;
+  font-size: 2.5rem;
+  color: #D97852;
+}
+
+.titleSearchContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.filterContainer {
+  margin-left: 1rem;
+}
+
+.filterFavContainer {
+  border-right: 2px solid #5C1F06;
+  padding-right: 1rem;
+}
+
+.genreContainer {
+  margin: 1rem 0 1rem 0;
+}
+.genreContainer h4 {
+  font-size: 1.5rem;
+}
+.genreContainer ul {
+  list-style: none;
+  margin-left: 0.2rem;
+}
+.genreContainer ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  border-radius: 3px;
+  margin: 0.5rem 0;
+}
+.genreContainer ul li :hover {
+  text-decoration: underline;
+}
+
+.favContainer {
+  margin-left: 1rem;
+}
+.favContainer ul {
+  list-style: none;
+}
+
+.filterFavCardContainer {
+  display: flex;
+}
+.filterFavCardContainer .cardContainer {
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.filterFavCardContainer .cardContainer .card {
+  width: 300px;
+  height: auto;
+  text-align: center;
+}
+.filterFavCardContainer .cardContainer .card img {
+  width: 100%;
+  height: 450px;
+}
+.filterFavCardContainer .cardContainer .card .buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}
+.filterFavCardContainer .cardContainer .card .buttonContainer button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #5C1F06;
+  background-color: #D97852;
+  color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}/*# sourceMappingURL=main.css.map */
